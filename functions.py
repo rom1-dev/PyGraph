@@ -18,7 +18,7 @@ import os
 import webbrowser
 
 CONFIG_FILE = "config.json"
-WEBSITE_URL = "https://github.com/rom1-dev/PyGraphs/releases"
+WEBSITE_URL = "https://github.com/rom1-dev/PyGraph/releases"
 
 def load_config():
     """Charge le fichier de configuration JSON de l'application.

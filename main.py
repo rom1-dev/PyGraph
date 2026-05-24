@@ -205,7 +205,7 @@ def getter():
     }
 
 root = tk.Tk()
-root.title("PyGraphs - Visualisateur Algorithmique de Graphes")
+root.title("PyGraph - Visualisateur Algorithmique de Graphes")
 
 # Génération de la figure Matplotlib à partir du graphe NetworkX
 fig = engine.draw_graph_to_fig(G, positions=positions)

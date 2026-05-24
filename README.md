@@ -28,11 +28,11 @@ Chaque algorithme ouvre une fenêtre de contrôle Tkinter dédiée qui affiche e
 * **Suivi de la File (Queue)** pour le BFS, mettant en évidence la logique **FIFO** (First In, First Out).
 * **Suivi de la Pile d'appels (Stack)** pour le DFS, illustrant visuellement les phases d'empilement et le mécanisme de **backtracking** (machine arrière).
 * **Variables d'état** : Visualisation en temps réel du sommet en cours, de son voisinage direct et de la liste des sommets visités.
-* **Coloration différenciée** : Identification immédiate des nœuds courants (Orange), entièrement traités (Rouge Foncé), des arêtes de l'arbre (Vert) et des arêtes de cycle/revisite (Bleu).
+* **Coloration différenciée** : Identification immédiate des nœuds courants (Orange), entièrement traités (Jaune Pâle), des arêtes de l'arbre (Orange) et des arêtes de cycle/revisite (Bleu).
 
 ### Interopérabilité et I/O
-* Sauvegarde et chargement des graphes personnalisés aux formats standard (`.json`, `.adj`).
-* Importation de listes ou matrices d'adjacence textuelles via le presse-papiers.
+* Sauvegarde et chargement des graphes personnalisés au format `.gph`.
+* Importation de listes d'adjacence textuelles depuis les formats `.json` et `.py`.
 * **Export de code autonome** : Génération automatique du script Python exécutable nécessaire pour recréer le graphe programmatiquement.
 
 ---
@@ -56,7 +56,7 @@ L'environnement requiert **Python 3.8** ou une version supérieure.
 ### Installation des dépendances
 Clonez le dépôt, puis installez les bibliothèques requises à l'aide de `pip` :
 ```bash
-git clone [https://github.com/votre-username/visualisateur-graphes.git](https://github.com/votre-username/visualisateur-graphes.git)
+git clone https://github.com/rom1-dev/PyGraph.git
 cd visualisateur-graphes
 pip install networkx matplotlib numpy pyperclip
 ```
