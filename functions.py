@@ -57,7 +57,7 @@ def save_config(config):
         print(f"Erreur lors de la sauvegarde de la configuration : {e}")
 
 def afficher_popup_aide(root):
-    """Affiche une fenêtre pop-up d'aide et de bienvenue pour PyGraphs.
+    """Affiche une fenêtre pop-up d'aide et de bienvenue pour PyGraph.
 
     Cette fenêtre présente les commandes fondamentales de l'application (ajout, 
     déplacement, suppression, coloriage de graphes et exécution d'algorithmes). 
@@ -76,7 +76,7 @@ def afficher_popup_aide(root):
     popup.attributes('-topmost', True)
 
     # 1. Titre
-    lbl_titre = tk.Label(popup, text="Bienvenue dans PyGraphs !", font=("Arial", 12, "bold"), fg="#0055A5")
+    lbl_titre = tk.Label(popup, text="Bienvenue dans PyGraph !", font=("Arial", 12, "bold"), fg="#0055A5")
     lbl_titre.pack(pady=10)
 
     # 2. Cadre du bas (Bouton et Case à cocher)
